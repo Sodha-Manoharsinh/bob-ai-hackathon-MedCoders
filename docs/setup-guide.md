@@ -125,7 +125,7 @@ The application uses the following environment variables:
 ### 1. Clone the repository
 
 ```bash
-git clone [YOUR_GITHUB_REPOSITORY_URL]
+git clone https://github.com/Sodha-Manoharsinh/bob-ai-hackathon-MedCoders
 ```
 
 ### 2. Enter the project directory
