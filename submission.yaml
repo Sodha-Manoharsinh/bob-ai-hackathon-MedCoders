@@ -9,51 +9,66 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "MedCoders"
+  track: "AI"
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "SODHA MANOHARSINH CHANDUBHA"
+    email: "manoharsinh.c.sodha@gmail.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "BHADARAKA CHIRAG HARASUKHBHAI"
+      email: "chiragbhadarka1204@gmail.com"
+    - name: "LASHKARI DENISH BHARAT"
+      email: "denishlashkari2008@gmail.com"
+    - name: "BORADA HET JAYESHBHAI"
+      email: "hetborada@gmail.com"
+    - name: "MALI ASHIKKUMAR MAGANBHAI"
+      email: "maliashik111@gmail.com"
+    - name: "DARJI TIRTH JAYANTIBHAI"
+      email: "darjitirth07@gmail.com"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Medical Report AI"
 
-  problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+  problem_statement: >
+    Many patients and clinicians struggle with fragmented medical records,
+    scattered lab reports, and time-consuming document review. Critical
+    findings are often buried in PDFs and images, making it hard to extract
+    actionable insights quickly and accurately.
 
-  solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
+  solution_summary: >
+    We built a full-stack medical document intelligence platform that uploads
+    PDFs and images, extracts structured clinical facts, generates clear
+    summaries, and answers patient-specific questions using AI grounded in the
+    uploaded documents. This helps clinicians and patients understand medical
+    data faster without relying on guesswork.
 
-  key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+  key_features:
+    - "Medical document upload with PDF/image parsing and OCR support"
+    - "Structured extraction of lab results, diagnoses, medications, and vitals"
+    - "AI-generated patient summary and clinical analysis dashboard"
+    - "Question-answering assistant grounded strictly in uploaded records"
+    - "Downloadable PDF clinical report for sharing and review"
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
-    other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages: ["TypeScript", "JavaScript"]
+    frameworks: ["Express.js", "Node.js"]
+    ibm_technologies: ["IBM Bob AI"]
+    databases: ["JSON file store"]
+    other: ["Tesseract OCR", "PDFKit", "Multer", "Google Gemini API"]
 
-  what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+  what_we_are_most_proud_of: >
+    We are most proud of building a solution that transforms noisy medical
+    documents into structured, explainable insights while keeping the AI
+    grounded in source data. The combination of extraction, summary
+    generation, and Q&A makes the system practical for real-world medical
+    workflows.
 
-  known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+  known_limitations: >
+    The platform depends on the quality of uploaded documents and OCR output,
+    so low-resolution scans or poorly formatted records may reduce accuracy.
+    It is a decision-support tool rather than a replacement for clinical
+    judgment, and broader deployment would require stronger validation,
+    security hardening, and integration with production medical systems.
 
 # =============================================================================
 # ARTIFACT LOCATIONS
@@ -63,7 +78,7 @@ artifacts:
   source_code: "src/"
   setup_guide: "docs/setup-guide.md"
   architecture_doc: "docs/architecture.md"
-  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
-  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  demo_video: "demo/demo-video-link.txt"
+  live_demo: "demo/live-demo-url.txt"
   screenshots: "demo/screenshots/"
   presentation: "presentation/"

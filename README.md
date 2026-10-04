@@ -1,121 +1,70 @@
-# 🚀 [Your Project Title Here]
+# 🚀 Medical Report AI
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
+> AI-powered medical document intelligence for faster and clearer understanding of patient records.
 
 ---
 
 ## 👥 Team
 
-| Field | Value |
-|---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| Field         | Value                                                                                                                            |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Team Name** | MedCoders                                                                                                                        |
+| **Track**     | AI                                                                                                                               |
+| **Team Lead** | SODHA MANOHARSINH CHANDUBHA — manoharsinh.c.sodha@gmail.com                                                                      |
+| **Members**   | BHADARAKA CHIRAG HARASUKHBHAI, LASHKARI DENISH BHARAT, BORADA HET JAYESHBHAI, MALI ASHIKKUMAR MAGANBHAI, DARJI TIRTH JAYANTIBHAI |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Many patients and clinicians struggle with fragmented medical records, scattered lab reports, and time-consuming document review. Critical findings are often buried in PDFs and images, making it difficult to extract actionable insights quickly and accurately.
 
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
+Medical Report AI is a full-stack medical document intelligence platform that allows users to upload medical PDFs and images, extract structured clinical information, and generate clear patient summaries.
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+The platform also provides patient-specific question answering grounded in the uploaded medical records, helping clinicians and patients understand medical information faster without relying on guesswork.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Medical Document Upload:** Upload medical PDFs and images for processing.
+- **PDF/Image Parsing & OCR:** Extract information from digital documents and scanned medical records using OCR.
+- **Structured Clinical Extraction:** Extract important information such as lab results, diagnoses, medications, and vitals.
+- **AI Clinical Summary:** Generate an AI-powered patient summary and clinical analysis dashboard.
+- **Grounded Medical Q&A:** Ask questions about the uploaded records and receive answers grounded in the available documents.
+- **Downloadable Clinical Report:** Generate a PDF report for sharing and further review.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
-|---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| Category             | Technologies                                     |
+| -------------------- | ------------------------------------------------ |
+| **Languages**        | TypeScript, JavaScript                           |
+| **Frameworks**       | Express.js, Node.js                              |
+| **IBM Technologies** | IBM Bob AI                                       |
+| **Databases**        | JSON file store                                  |
+| **Other**            | Tesseract OCR, PDFKit, Multer, Google Gemini API |
 
 ---
 
 ## 📁 Repository Structure
 
-```
-├── src/                  # All source code
-├── docs/                 # Written documentation
+```text
+├── src/                       # All source code
+├── docs/                      # Written documentation
 │   ├── problem-statement.md
 │   ├── solution-overview.md
 │   ├── architecture.md
 │   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
+├── demo/                      # Demo artifacts
+│   ├── screenshots/           # App screenshots
+│   ├── demo-video-link.txt    # Link to demo video
+│   └── live-demo-url.txt      # Link to deployed application
+├── presentation/              # Slide deck
+└── submission.yaml            # Structured submission metadata
 ```
-
----
-
-## ⚡ How to Run
-
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
-
-# 2. Install dependencies
-[your install command here]
-
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
-
-# 4. Run the project
-[your run command here]
-```
-
----
-
-## 🖥️ Demo
-
-| Artifact | Link |
-|---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
-
----
-
-## ⚠️ Known Limitations
-
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
-
----
-
-## 🏅 What We're Most Proud Of
-
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
----
